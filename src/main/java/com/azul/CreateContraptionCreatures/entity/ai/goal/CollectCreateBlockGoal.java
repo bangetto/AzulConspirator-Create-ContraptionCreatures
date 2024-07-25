@@ -46,7 +46,7 @@ public class CollectCreateBlockGoal extends MoveToTargetPosGoal
 
     public CollectCreateBlockGoal(Block targetBlocks, GearBugEntity mob, double speed, int maxYDifference)
 	{
-        super(mob, speed, 24);
+        super(mob, speed, 12);
         this.targetBlock = targetBlocks;
         this.EaterMob = mob;
     }
