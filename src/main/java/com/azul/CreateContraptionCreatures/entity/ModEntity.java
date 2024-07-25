@@ -31,7 +31,7 @@ public class ModEntity
 	FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, AutoPorterEntity::new).dimensions(EntityDimensions.fixed(1f, 1.3f)).build());
 	//
 	public static final EntityType<GearBugEntity> GEAR_BUG = register("gear_bug", 10065300, 3092271,
-	FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, GearBugEntity::new).dimensions(EntityDimensions.fixed(0.3f, 0.5f)).build());
+	FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, GearBugEntity::new).dimensions(EntityDimensions.fixed(0.5f, 0.7f)).build());
 	public static final EntityType<GearDummyEntity> GEAR_DUMMY = register("gear_dummy", 10065300, 3092271,
 	FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, GearDummyEntity::new).dimensions(EntityDimensions.fixed(1f, 2f)).build());
 	public static final EntityType<GearKnightEntity> GEAR_KNIGHT = register("gear_knight", 10065300, 3092271,
