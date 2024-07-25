@@ -95,7 +95,7 @@ public class GearBugEntity extends AbstractCogBotEntity
 	{
         return MobEntity.createMobAttributes()
                 .add(EntityAttributes.GENERIC_MAX_HEALTH, 10)
-                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.4f)
+                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.2f)
                 .add(EntityAttributes.GENERIC_ARMOR, 0.0f)
                 .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 2);
     }
@@ -348,7 +348,7 @@ public class GearBugEntity extends AbstractCogBotEntity
 	// Spawning Check
 	public static boolean isSpawnDark(ServerWorldAccess world, BlockPos pos, Random random)
 	{
-        if (world.getLightLevel(LightType.SKY, pos) > random.nextInt(32)) {
+        if (world.getLightLevel(LightType.SKY, pos) > random.nextInt(5)) {
             return false;
         }
         DimensionType dimensionType = world.getDimension();
