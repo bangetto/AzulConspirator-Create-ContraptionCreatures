@@ -353,7 +353,7 @@ public class GearBugEntity extends AbstractCogBotEntity
         }
         DimensionType dimensionType = world.getDimension();
         int i = dimensionType.monsterSpawnBlockLightLimit();
-        if (i < 15 && world.getLightLevel(LightType.BLOCK, pos) > i) {
+        if (i == 0 && world.getLightLevel(LightType.BLOCK, pos) > i) {
             return false;
         }
         int j = world.toServerWorld().isThundering() ? world.getLightLevel(pos, 10) : world.getLightLevel(pos);
