@@ -23,14 +23,14 @@ public class ModEntity
 {
 
 
-	public static final EntityType<AutoDrillerEntity> AUTO_DRILLER = register("auto_driller", 1250067, 3092271,
-	FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, AutoDrillerEntity::new).dimensions(EntityDimensions.fixed(1f, 1.3f)).build());
-	public static final EntityType<AutoLumbererEntity> AUTO_LUMBERER = register("auto_lumberer", 1250067, 3092271,
-	FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, AutoLumbererEntity::new).dimensions(EntityDimensions.fixed(1f, 1.3f)).build());
-	public static final EntityType<AutoPorterEntity> AUTO_PORTER = register("auto_porter", 1250067, 3092271,
-	FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, AutoPorterEntity::new).dimensions(EntityDimensions.fixed(1f, 1.3f)).build());
+	//public static final EntityType<AutoDrillerEntity> AUTO_DRILLER = register("auto_driller", 1250067, 3092271,
+	//FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, AutoDrillerEntity::new).dimensions(EntityDimensions.fixed(1f, 1.3f)).build());
+	//public static final EntityType<AutoLumbererEntity> AUTO_LUMBERER = register("auto_lumberer", 1250067, 3092271,
+	//FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, AutoLumbererEntity::new).dimensions(EntityDimensions.fixed(1f, 1.3f)).build());
+	//public static final EntityType<AutoPorterEntity> AUTO_PORTER = register("auto_porter", 1250067, 3092271,
+	//FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, AutoPorterEntity::new).dimensions(EntityDimensions.fixed(1f, 1.3f)).build());
 	//
-	public static final EntityType<GearBugEntity> GEAR_BUG = register("gear_bug", 10065300, 3092271,
+	//public static final EntityType<GearBugEntity> GEAR_BUG = register("gear_bug", 10065300, 3092271,
 	FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, GearBugEntity::new).dimensions(EntityDimensions.fixed(0.5f, 0.7f)).build());
 	public static final EntityType<GearDummyEntity> GEAR_DUMMY = register("gear_dummy", 10065300, 3092271,
 	FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, GearDummyEntity::new).dimensions(EntityDimensions.fixed(1f, 2f)).build());
